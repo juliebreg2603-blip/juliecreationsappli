@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:gravity="center">
+    <TextView
+        android:id="@+id/tvBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="← Retour"
+        android:textSize="16sp"
+        android:textColor="#E91E63"
+        android:padding="16dp"
+        android:clickable="true"
+        android:focusable="true" />
+
+    <TextView
+        android:text="Connexion"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#E91E63"
+        android:gravity="center"
+        android:layout_marginBottom="32dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/etLoginEmail"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:padding="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@android:drawable/edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/etLoginPassword"
+        android:hint="Mot de passe"
+        android:inputType="textPassword"
+        android:padding="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@android:drawable/edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tvLoginResult"
+        android:text=""
+        android:textSize="16sp"
+        android:gravity="center"
+        android:layout_marginBottom="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnLoginSubmit"
+        android:text="Se connecter"
+        android:textSize="18sp"
+        android:backgroundTint="#E91E63"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
